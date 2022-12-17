@@ -1,0 +1,8 @@
+COMANDS IN SQL:
+1) SELECT COUNT(*)FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE='BASE TABLE';
+2) SELECT table_name FROM information_shema.tables WHERE TABLE_TYPE='BASE TABLE';
+3) SELECT*FROM users;
+4) SELECT*FROM grades;
+5) SELECT*FROM users join grades on users.user_id=grades.user_id;
+6) SELECT COUNT(*)FROM users;
+7) SELECT*FROM users WHERE fam='Pichugin';
